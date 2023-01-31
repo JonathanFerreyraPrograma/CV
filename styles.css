@@ -56,10 +56,10 @@ main {
     padding  0;
     margin: 20px auto;
     width: 21cm;
-    height: 29.7cm;
+    height: 31cm;
     border: 1px solid rgb(180, 197, 81);
     background: linear-gradient(#d4b04c,#eb4200);
-    box-shadow: 3px 5px 5px gray;
+    box-shadow: 3px 5px 5px rgb(14, 12, 12);
 }
 
 .container, .card {
@@ -73,6 +73,7 @@ main {
     margin: 10px 20px;
     border:1px solid rgb(29, 18, 18);
     border-radius:10px 40px;
+    text-align: center;
 
 }
 .card-body {
@@ -103,19 +104,13 @@ table tr td:first-child {
     text-align:justify;
 }
 
-.foto {
-    display:flex;
-    border-radius:50%;
-    border:5px solid rgb(49, 27, 8);
-}
-
 .titulo {
     text-align:center;
     font-weight:400;
     font-size:3em;
     line-height:1.5em;
     color:white;
-    background:black;
+    background:rgb(70, 70, 70);
 }
 .oficio {
     font-size:2em;
@@ -241,6 +236,39 @@ details[open] summary::after{
 .close {
     font-size:30px;
     text-align:right;
+}
+
+#secundaria {
+      color: rgb(17, 14, 14);
+      padding: 16px 32px;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: #f7c641;
+      border-radius: 10px
+}
+
+#policiaf {
+    color: rgb(17, 14, 14);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #f7c641;
+    border-radius: 10px
+}
+
+#facultad {
+    color: rgb(17, 14, 14);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #f7c641;
+    border-radius: 10px
 }
 
 

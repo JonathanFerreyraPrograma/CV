@@ -33,10 +33,10 @@ main {
     flex-flow:column;
     flex: auto;
     background: whitesmoke;
-    border-radius:40px 0 0 0;
+    border-radius:20px;
     padding:20px 5px;
     justify-content:space-between;
-    box-shadow: inset 5px 5px 3px 1px gray;
+    box-shadow: inset 5px 5px 5px 5px gray;
 }
 
 .row{
@@ -72,7 +72,7 @@ main {
     padding:0px 5px 40px 5px;
     margin: 10px 20px;
     border:1px solid rgb(29, 18, 18);
-    border-radius:10px 40px;
+    border-radius:10px 10px;
     text-align: center;
 
 }
@@ -110,7 +110,8 @@ table tr td:first-child {
     font-size:3em;
     line-height:1.5em;
     color:white;
-    background:rgb(70, 70, 70);
+    background:rgb(173, 163, 138);
+    border-radius: 10px 10px;
 }
 .oficio {
     font-size:2em;
@@ -127,7 +128,7 @@ table tr td:first-child {
 
 .acerca {
     text-align:center;
-    border-radius:10px 40px;
+    border-radius:10px 10px;
 }
 
 .ref-title {
@@ -137,35 +138,8 @@ table tr td:first-child {
     display:block;
 }
 
-footer, .footer {
-    display:flex;
-    text-align:center;
-    align-self:center;
-}
-
-.copyright {
-    display:block;
-    text-align:center;
-    font-style:italic;
-
-}
-
-.icon-text {
-    position:relative;
-    top:4px;
-    right:5px;
-}
-
-.unstyled {
-    list-style:none;
- }
-
 .material-icons {
     font-size:18px !important;
-}
-
-a abbr {
-    text-decoration:none;
 }
 
 details summary  {
@@ -173,30 +147,12 @@ details summary  {
     cursor:pointer;
 }
 
-details summary::-webkit-details-marker {
-    display:none;
-}
-
-details summary::marker {
-    display:none;
-}
-
-details summary::after{
-    top:0.5em;
-    position:relative;
-    content:url(images/arrow_drop_down_black_24dp.svg);
-}
-
-details[open] summary::after{
-    content:url(images/arrow_drop_up_black_24dp.svg);
-}
-
 .summary-list {
     margin:0;
     font-size:0.9em;
     position: absolute;
     z-index:1;
-    background:rgb(187, 153, 153);
+    background:rgb(248, 231, 231);
     padding:20px 10px 20px 30px;
     border:1px solid rgb(207, 226, 120);
     border-radius:10px;
@@ -283,10 +239,6 @@ details[open] summary::after{
     .page, main, .card {
         border:0;
         box-shadow:unset;
-    }
-
-    .foto{
-        width:150px;
     }
 
     main {
